@@ -5,7 +5,7 @@ A simple React.js web app to fetch houses from the API and display them using th
 Using the given API end point, I accessed the houses using the default setting of 10 houses per page while accessing all the pages
 
 ## Architecture
-The architecture is based off of Client-Server suing React components.
+The architecture is based off of Client-Server using React components.
 
 Client: The Client is developed using HTML(JSX), CSS, React,Bootstrap and by making use of container(Stateful) and component(Stateless) principles of React called the Houses.js and Layout.js respectively in the homevision folder.
 
