@@ -6,8 +6,8 @@ import images from'../../Assests/Images/home.jpg';
 const Layout = {
     padding: '20px',
     textAlign: 'center',
-    background: '#1abc9c',
-    color: 'black',
+    background: '#1432bc',
+    color: 'white',
     fontSize: '25px',
 
 }

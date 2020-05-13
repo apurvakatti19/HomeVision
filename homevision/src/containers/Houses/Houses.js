@@ -94,19 +94,18 @@ class Houses extends Component{
                     </p>}
                     >
 
-        <div className="Center">
             {this.state.houses.map((ctrl,key) => (
 
-            <Card border="dark"  key={key}>
-                <Card.Img variant="top" top src={ctrl.photoURL} alt="Card image" />
+            <Card style={{width: "20rem",margin: "16px auto",border:"2px solid red"}}  key={ctrl.id}>
+                <Card.Img style={{width: "100%"}} variant="top" top src={ctrl.photoURL} alt="Card image" />
                 <Card.Body>
-                    <Card.Title style={{color:'red'}}>Address:{ctrl.address}</Card.Title>
-                    <Card.Text>Price:{ctrl.price}</Card.Text>
-                    <Card.Text>Owner:{ctrl.homeowner}</Card.Text>
+                    <Card.Title style={{color:'blue'}}>Address:{ctrl.address}</Card.Title>
+                    <Card.Text style={{color:'blue'}}>Price:{ctrl.price}</Card.Text>
+                    <Card.Text style={{color:'blue'}}>Owner:{ctrl.homeowner}</Card.Text>
                     </Card.Body>
                     </Card>
             ))}
-            </div>
+            
     </InfiniteScroll>
         </div>
                 
